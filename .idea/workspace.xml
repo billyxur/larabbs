@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09319266-04fd-4575-9c05-b21a870d6e90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +18,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="146">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding>
                 <element signature="e#40#76#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Policies/UserPolicy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -35,16 +40,16 @@
         <entry file="file://$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1426">
-              <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Requests/UserRequest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="736">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="e#37#80#0#PHP" expanded="true" />
               </folding>
@@ -159,8 +164,9 @@
         <option value="$PROJECT_DIR$/resources/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Policies/UserPolicy.php" />
       </list>
     </option>
   </component>
@@ -303,6 +309,12 @@
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Policies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -382,12 +394,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555036562905</updated>
-      <workItem from="1555036565299" duration="27649000" />
+      <workItem from="1555036565299" duration="27889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27649000" />
+    <option name="totallyTimeSpent" value="27889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2250" height="1243" extended-state="6" />
@@ -742,30 +754,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#40#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1426">
-          <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/UserRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="e#37#80#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="e#40#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/UserPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
