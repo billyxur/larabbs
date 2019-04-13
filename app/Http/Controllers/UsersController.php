@@ -30,7 +30,7 @@ class UsersController extends Controller
 //        return redirect()->route('users.show', $user->id)->with('danger', '个人信息更新失败');
 
         if($request->avatar){
-            $res = $uploader->save($request->avatar, 'avatars', $user->id);
+            $res = $uploader->save($request->avatar, 'avatars', $user->id, 416);
             if($res){
                 $data['avatar'] = $res['path'];
             }
