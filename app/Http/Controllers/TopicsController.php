@@ -18,6 +18,7 @@ class TopicsController extends Controller
 	{
 		//$topics = Topic::paginate();
         $topics = Topic::with('user', 'category')->paginate(30);
+        //dd($topics->toArray());
 		return view('topics.index', compact('topics'));
 	}
 
