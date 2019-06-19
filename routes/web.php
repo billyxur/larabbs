@@ -45,8 +45,10 @@ Route::get('email/resend', 'Auth\VerificationController@resend')->name('verifica
 
 //个人信息
 Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);  //显示用户个人信息
-Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+Route::resource('topics', 'TopicsController', ['only' => ['index', 'create', 'store', 'update', 'edit', 'destroy']]);
 
 Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
 
 Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');
+
+Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
