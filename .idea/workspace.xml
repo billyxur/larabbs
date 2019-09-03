@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09319266-04fd-4575-9c05-b21a870d6e90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-    </list>
+    <list default="true" id="09319266-04fd-4575-9c05-b21a870d6e90" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +55,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Traits/LastActivedAtHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1909">
+            <state relative-caret-position="568">
               <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
               <folding>
                 <element signature="e#119#156#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/users/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -92,15 +105,6 @@
               <folding>
                 <element signature="e#30#70#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -132,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" />
         <option value="$PROJECT_DIR$/app/Notifications/TopicReplied.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" />
         <option value="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" />
@@ -183,6 +186,7 @@
         <option value="$PROJECT_DIR$/app/Console/Commands/SyncUserActivedAt.php" />
         <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Models/Traits/LastActivedAtHelper.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/show.blade.php" />
       </list>
     </option>
   </component>
@@ -549,12 +553,12 @@
       <workItem from="1565071850138" duration="14843000" />
       <workItem from="1566143017570" duration="7975000" />
       <workItem from="1567431842485" duration="7933000" />
-      <workItem from="1567517955050" duration="2362000" />
+      <workItem from="1567517955050" duration="2750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113462000" />
+    <option name="totallyTimeSpent" value="113850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="929" extended-state="6" />
@@ -587,16 +591,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Observers/ReplyObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="e#33#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Observers/TopicObserver.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -741,13 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -960,11 +947,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Traits/LastActivedAtHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
+        <state relative-caret-position="568">
           <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
           <folding>
             <element signature="e#119#156#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
